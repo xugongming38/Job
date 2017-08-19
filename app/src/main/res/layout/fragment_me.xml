@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+
+        <com.xugongming38.job.view.CircleImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/de_bg"
+            android:id="@+id/head"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/isLogin"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/nologin"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#009900"
+        android:layout_weight="7"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_height="0dp">
+
+        <com.lixiaohui8636.widget.ClauseView
+            xmlns:clause="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            clause:cv_title="@string/app_name"
+            clause:cv_remark="@string/app_name"
+            clause:cv_titleTextColor="@color/clauses_view_default_title_color"
+            clause:cv_showUnderline="true"
+            clause:cv_showOverline="true"
+            clause:cv_underlinePaddingLeft="20dp"
+            clause:cv_underlinePaddingRight="20dp"
+            clause:cv_drawRight="@drawable/right_dark"
+            clause:cv_drawLeft="@drawable/user"
+            clause:cv_drawLeftMargin="10dp"
+            clause:cv_drawRightMargin="10dp"
+            clause:cv_remarkTextColor="@color/colorAccent"
+            />
+        <com.lixiaohui8636.widget.ClauseView
+            xmlns:clause="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            clause:cv_title="@string/app_name"
+            clause:cv_remark="@string/app_name"
+            clause:cv_titleTextColor="@color/clauses_view_default_title_color"
+            clause:cv_showUnderline="true"
+            clause:cv_showOverline="true"
+            clause:cv_underlinePaddingLeft="20dp"
+            clause:cv_underlinePaddingRight="20dp"
+            clause:cv_drawRight="@drawable/right_dark"
+            clause:cv_drawLeft="@drawable/user"
+            clause:cv_drawLeftMargin="10dp"
+            clause:cv_drawRightMargin="10dp"
+            clause:cv_remarkTextColor="@color/colorAccent"
+            />
+
+        <com.lixiaohui8636.widget.ClauseView
+            xmlns:clause="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            clause:cv_title="@string/app_name"
+            clause:cv_remark="@string/app_name"
+            clause:cv_titleTextColor="@color/clauses_view_default_title_color"
+            clause:cv_showUnderline="true"
+            clause:cv_showOverline="true"
+            clause:cv_underlinePaddingLeft="20dp"
+            clause:cv_underlinePaddingRight="20dp"
+            clause:cv_drawRight="@drawable/right_dark"
+            clause:cv_drawLeft="@drawable/user"
+            clause:cv_drawLeftMargin="10dp"
+            clause:cv_drawRightMargin="10dp"
+            clause:cv_remarkTextColor="@color/colorAccent"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

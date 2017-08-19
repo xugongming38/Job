@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">自游行</string>
+    <string name="hello_blank_fragment">..</string>
+    <string name="register_text1">忘记密码</string>
+    <string name="register_text2">立即注册 ></string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_username_hint">请输入用户名</string>
+    <string name="register_account_hint">请输入用户名</string>
+    <string name="register_password">密码</string>
+    <string name="register_password_confirm_hint">请再次输入密码</string>
+    <string name="title_activity_register">注册</string>
+    <string name="nologin">未登录</string>
+</resources>
